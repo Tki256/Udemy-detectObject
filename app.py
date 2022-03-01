@@ -39,7 +39,7 @@ from PIL import ImageFont
 
 st.title("物体検出アプリ")
 
-uploaded_file = st.file_uploader("Chooze an image...", type=["jpg", "png"])
+uploaded_file = st.file_uploader("Chooze an image...", type=["jpg", "png","jpeg", "heif"])
 if uploaded_file is not None:
     img = Image.open(uploaded_file)
     img_path = f"img/{uploaded_file.name}"
