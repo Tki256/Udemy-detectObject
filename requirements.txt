@@ -1,4 +1,11 @@
-azure_storage==0.37.0
+azure.cognitiveservices.vision.computervision
 msrest==0.6.21
 Pillow==9.0.1
 streamlit==1.6.0
+# ComputerVisionClient
+# OperationStatusCodes
+# VisualFeatureTypes
+# CognitiveServicesCredentials
+# array
+# os
+# PIL
