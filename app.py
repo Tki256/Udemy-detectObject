@@ -55,7 +55,7 @@ if uploaded_file is not None:
         h = object.rectangle.h
         caption = object.object_property
 
-        font = ImageFont.truetype(font="/Users/taiki256/MyTemp/detect_obj/LeagueGothic-Regular.ttf", size=150)
+        font = ImageFont.truetype(font="/Users/taiki256/MyTemp/detect_obj/Helvetica 400.ttf", size=150)
         text_x, text_y = draw.textsize(caption, font=font)
 
         draw.rectangle([(x, y), (x+w, y+h)], fill=None, outline="green", width=5)
