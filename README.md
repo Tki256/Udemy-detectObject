@@ -1,7 +1,7 @@
 # Udemy-detectObject
 [アプリ](https://taiki256-udemy-detectobject-app-gwsz8x.streamlit.app/)
 
-streamlitで物体検出を行います
+streamlitを用いた物体検出アプリ
 
 
 
